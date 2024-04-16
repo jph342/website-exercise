@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    text-align: justify;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Aligns items on the horizontal line */
+    align-items: center; /* Aligns items on the vertical line */
+    height: 100vh; /* Takes the full height of the viewport */
+    flex-direction: column; /* Stacks items vertically */
+    gap: 10px; /* Adds space between the buttons */
+}
+
