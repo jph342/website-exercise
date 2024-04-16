@@ -29,6 +29,7 @@ p {
     align-items: center; /* Aligns items on the vertical line */
     height: 100vh; /* Takes the full height of the viewport */
     flex-direction: column; /* Stacks items vertically */
-    gap: 10px; /* Adds space between the buttons */
+    gap: 10px; 
+    /* I used Chat GPT to help format this style sheet*/
 }
 
